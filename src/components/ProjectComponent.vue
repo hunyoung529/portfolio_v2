@@ -4,13 +4,54 @@
       <h1 class="titleName darkText">Project</h1>
       <div class="decoLine"></div>
       <div class="filterButtons">
-        <button @click="setFilter('')" class="filterLang">All</button>
-        <button @click="setFilter('React')" class="filterLang">React</button>
-        <button @click="setFilter('Next.js')" class="filterLang">
+        <button
+          @click="setFilter('')"
+          class="filterLang"
+          :class="{
+            'active-dark': isFilterActive('') && darkmode,
+            'active-light': isFilterActive('') && !darkmode,
+          }"
+        >
+          All
+        </button>
+        <button
+          @click="setFilter('React')"
+          class="filterLang"
+          :class="{
+            'active-dark': isFilterActive('React') && darkmode,
+            'active-light': isFilterActive('React') && !darkmode,
+          }"
+        >
+          React
+        </button>
+        <button
+          @click="setFilter('Next.js')"
+          class="filterLang"
+          :class="{
+            'active-dark': isFilterActive('Next.js') && darkmode,
+            'active-light': isFilterActive('Next.js') && !darkmode,
+          }"
+        >
           Next.js
         </button>
-        <button @click="setFilter('Vue.js')" class="filterLang">Vue.js</button>
-        <button @click="setFilter('JavaScript')" class="filterLang">
+        <button
+          @click="setFilter('Vue.js')"
+          class="filterLang"
+          :class="{
+            'active-dark': isFilterActive('Vue.js') && darkmode,
+            'active-light': isFilterActive('Vue.js') && !darkmode,
+          }"
+        >
+          Vue.js
+        </button>
+        <button
+          @click="setFilter('JavaScript')"
+          class="filterLang"
+          :class="{
+            'active-dark': isFilterActive('JavaScript') && darkmode,
+            'active-light': isFilterActive('JavaScript') && !darkmode,
+          }"
+        >
           JavaScript
         </button>
       </div>
@@ -79,6 +120,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 export default {
+  props: ["darkmode"],
   components: {
     Swiper,
     SwiperSlide,
@@ -108,6 +150,9 @@ export default {
     },
     setFilter(language) {
       this.filter = language;
+    },
+    isFilterActive(filterValue) {
+      return this.filter === filterValue;
     },
   },
 };
@@ -149,6 +194,18 @@ export default {
         color: #fff;
         padding: 7px 18px;
         margin-right: 5px;
+        &:hover {
+          background-color: darken(#8f94ff, 10%);
+        }
+      }
+      .active-dark {
+        background-color: white;
+        color: black;
+      }
+
+      .active-light {
+        background-color: black;
+        color: white;
       }
     }
   }

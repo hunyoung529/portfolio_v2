@@ -38,7 +38,9 @@ export default {
   width: 100%;
   height: 100vh;
 }
-
+.active {
+  border: 3px solid black;
+}
 .allBg {
   transition: background-color 0.3s ease-in-out;
   background-color: #f4f5ff;
@@ -89,6 +91,10 @@ export default {
   }
   .darkImg {
     display: block;
+  }
+
+  .active {
+    border: 3px solid white;
   }
 }
 </style>

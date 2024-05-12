@@ -1,8 +1,6 @@
 <template>
   <div>
-    <section class="leftProfile">
-      <!-- Left profile content -->
-    </section>
+    <section class="leftProfile"></section>
 
     <section class="rightMain">
       <div class="wrapRight80">
@@ -50,7 +48,7 @@
             <SkillComponent />
           </div>
           <div v-if="activeTab === 'project'">
-            <ProjectComponent />
+            <ProjectComponent :darkmode="darkmode" />
           </div>
         </article>
       </div>

@@ -102,8 +102,8 @@
     "lang": ["Vue.js", "SASS", "JavaScript"],
     "imgs": ["portfolio_v2_1.png", "portfolio_v2_2.png", "portfolio_v2_3.png"],
     "link": [
-      "https://hunyoung529.github.io/portfolio/",
-      "https://github.com/hunyoung529/portfolio"
+      "https://hunyoung-portfolio.netlify.app/",
+      "https://github.com/hunyoung529/portfolio_v2"
     ],
     "plan": "Vue.js를 사용하여 지금까지 제작한 웹사이트와 자기소개를 정리해 만든 포트폴리오 페이지입니다.",
     "desc": "기존 포트폴리오가 내용에 집중이 조금 어려워보여 다이어리에서 영감을 받아 만든 포트폴리오입니다. 좌측 목록을 클릭할때 상태변화를 감지해 해당하는 내용을 보여줍니다. 모바일, 태블릿, PC 사이즈 모두 지원하는 반응형으로 제작하였습니다.<br><br>브라우저의 다크모드 여부를 확인해서 일치하는 테마를 제공하고 이미지를 누르면 다른 테마로 변경할 수 있습니다."
