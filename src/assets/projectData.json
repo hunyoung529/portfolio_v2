@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "name": "제주 라이온힐 펜션",
+    "date": "[ 2023.07.26~2023.09.01 ]",
+    "lang": [
+      "HTML",
+      "JavaScript",
+      "SASS",
+      "jQuery",
+      "Kakao Login API",
+      "Kakao Map API",
+      "Google Login API"
+    ],
+    "imgs": [
+      "lh1.png",
+      "lh2.png",
+      "lh3.png",
+      "lh4.png",
+      "lh5.png",
+      "lh6.png",
+      "lh7.png",
+      "lh8.png",
+      "lh9.png",
+      "lh10.png"
+    ],
+    "link": [
+      "https://hunyoung529.github.io/Lionhill/",
+      "https://github.com/hunyoung529/Lionhill"
+    ],
+    "plan": "제주 독채펜션 라이온힐 홈페이지의 리뉴얼 웹 사이트입니다.<br> 기존의 웹사이트는 오래전 제작되어 가독성이 떨어지고, 예약도 불편했으며 반응형의 부재로 모바일 등의 휴대 기기에선 확인하기 어려웠습니다. 그 점을 개선하고자 리뉴얼 사이트를 제작하게 되었습니다.",
+    "desc": "5인으로 진행한 팀 프로젝트로 메인 페이지와 예약 페이지를 담당했습니다. 모바일, 태블릿, PC에 맞춘 반응형 웹 페이지를 구현했습니다.<br><br>팀으로 다른 사람들과 협업하는 과정에서 파일 구조등 기본적인 것이 통일 되어있지 않아 취합하는 과정에 시간을 많이 소요하는 등의 경험을 통해 팀으로 작업시 정확한 의사소통의 중요성을 깨달을 수 있었습니다.<br><br>당시 배웠던 HTML만으로는 서버나 DB와의 연결이 어려워 대책을 강구하던 중 결국 로컬/세션 스토리지를 사용하여 회원DB를 구현했고, 그 과정에서 스토리지에 대해 많이 배울 수 있었습니다."
+  },
+  {
+    "id": 2,
+    "name": "FCGG",
+    "date": "[ 2023.09.13~2023.09.27 ]",
+    "lang": ["Next.js", "Typescript", "Tailwind", "FC온라인 API"],
+    "imgs": [
+      "fcgg_1.png",
+      "fcgg_2.png",
+      "fcgg_3.png",
+      "fcgg_4.png",
+      "fcgg_5.png"
+    ],
+    "link": ["https://fcgg.vercel.app/", "https://github.com/hunyoung529/fcgg"],
+    "plan": "축구게임인 FC온라인의 API를 사용해서 만든 전적,통계 검색 웹페이지입니다.<br> 인기 게임인 반면에 리그 오브 레전드의 opgg와 같은 전적 검색 사이트가 없어서 만들게 됐습니다.",
+    "desc": "클론 코딩을 포함해서 세 번째 프로젝트다보니 수월하게 만들 수 있었습니다. 유저의 닉네임을 활용해서 여러 경기 정보들을 출력하고 이를 보기 쉽게 최대한 단순한 모습으로 구현했습니다.<br><br>  모바일과 데스크탑 크기의 반응형 웹을 지원합니다. 초기 React로 제작을 했다가 초기 페이지 로딩 시간을 단축하기 위해 Nextjs로 리뉴얼 작업을 진행했습니다.<br><br> 상태 관리는 context api를 사용해서 관리를 했습니다."
+  },
+  {
+    "id": 3,
+    "name": "별별연인",
+    "date": "[ 2023.10.04~2023.10.19 ]",
+    "lang": [
+      "Next.js",
+      "JavaScript",
+      "SASS",
+      "Maria DB",
+      "ChatGPT Api",
+      "mysql"
+    ],
+    "imgs": [
+      "bbyi_1.png",
+      "bbyi_2.png",
+      "bbyi_3.png",
+      "bbyi_4.png",
+      "bbyi_5.png",
+      "bbyi_6.png",
+      "bbyi_7.png",
+      "bbyi_8.png",
+      "bbyi_9.png"
+    ],
+    "link": [
+      "https://saju-nextjs.vercel.app/",
+      "https://github.com/hunyoung529/saju_nextjs"
+    ],
+    "plan": "chatGPT API를 활용해서 사주와 오행을 .<br>최근 포켓몬, 복고춤의 유행으로 인해 레트로 감성이 살아남에따라 포켓몬스터와 양대 산맥이였던 디지몬에 대한 즐길거리를 제공하여 유저들의 레트로 감성을 더욱 자극 시키고자 제작하였습니다.",
+    "desc": "Next.js 기반으로 진행한 6인 팀 프로젝트입니다. 전반적으로 캐치마인드와 관련된 퀴즈 생성, 퀴즈 목록, 퀴즈 맞추기 페이지를 맡았습니다. 640px에 최적화 되어있으며 모바일과 PC 반응형 또한 지원합니다.<br><br> 개발 중 어려웠던 것은 처음 다뤄본 Canvas와 관련된 문제들이였습니다. 반응형 작업중 화면이 줄어듬에 따라 Canvas 또한 줄어들어야 하는데 제대로 된 비율로 축소되지 않아 실제 커서 위치와 그림이 그려지는 위치가 달랐습니다. css로 직접 Canvas의 크기를 정했기에 발생하는 문제였고, 캔버스 태그에 변수를 넣어 화면 크기에 맞춰 캔버스 크기를 바꾸는 함수를 만들어 해결했습니다.<br><br>또한 되돌리기 기능을 위해 Canvas의 스냅샷을 찍어 배열에 저장했는데 같은 useEffect안에 들어있는 기능인 선 굵기를 변경할 시 되돌리기가 불가능한 문제가 있었습니다. 선 굵기를 변경할때마다 새로운 스냅샷 배열이 만들어지는 것이 원인이였고, useEffect 내부에 또다른 배열을 만들어 같은 위치에 저장되게 함으로서 해결했습니다."
+  },
+  {
+    "id": 5,
+    "name": "포트폴리오 페이지 ",
+    "date": "[ 2023.10.31~2023.11.10 ]",
+    "lang": ["Vue.js", "SASS", "JavaScript"],
+    "imgs": [
+      "portfolio_v1_1.png",
+      "portfolio_v1_2.png",
+      "portfolio_v1_3.png",
+      "portfolio_v1_4.png"
+    ],
+    "link": [
+      "https://hunyoung529.github.io/portfolio/",
+      "https://github.com/hunyoung529/portfolio"
+    ],
+    "plan": "Vue.js를 사용하여 지금까지 제작한 웹사이트와 자기소개를 정리해 만든 포트폴리오 페이지입니다.",
+    "desc": "깔끔하고 정돈된 느낌을 주길 원해 큰 틀은 고정하고 내용만 바뀌는 미니홈피 형태로 만든 웹사이트입니다. 모바일, 태블릿, PC 사이즈 모두 지원하는 반응형으로 제작하였습니다.<br><br>스크롤을 감지해 해당 컨텐츠에 닿을 때 헤더의 카테고리를 볼드처리 했습니다. swiper를 이용해 프로젝트들을 넘겨서 볼 수 있게 만들었습니다."
+  },
+  {
+    "id": 5,
+    "name": "포트폴리오 페이지 V2",
+    "date": "[ 2024.05.05~2023.05.11 ]",
+    "lang": ["Vue.js", "SASS", "JavaScript"],
+    "imgs": ["portfolio_v2_1.png", "portfolio_v2_2.png", "portfolio_v2_3.png"],
+    "link": [
+      "https://hunyoung529.github.io/portfolio/",
+      "https://github.com/hunyoung529/portfolio"
+    ],
+    "plan": "Vue.js를 사용하여 지금까지 제작한 웹사이트와 자기소개를 정리해 만든 포트폴리오 페이지입니다.",
+    "desc": "기존 포트폴리오가 내용에 집중이 조금 어려워보여 다이어리에서 영감을 받아 만든 포트폴리오입니다. 좌측 목록을 클릭할때 상태변화를 감지해 해당하는 내용을 보여줍니다. 모바일, 태블릿, PC 사이즈 모두 지원하는 반응형으로 제작하였습니다.<br><br>브라우저의 다크모드 여부를 확인해서 일치하는 테마를 제공하고 이미지를 누르면 다른 테마로 변경할 수 있습니다."
+  },
+  {
+    "id": 6,
+    "name": "코인 트래커",
+    "date": "[ 2024.03.07~2024.03.09 ]",
+    "lang": ["React", "Styled Components", "Typescript", "React-query"],
+    "imgs": ["coin_1.png", "coin_2.png", "coin_3.png"],
+    "link": [
+      "https://hunyoung529.github.io/cryptoCheck_typescript/",
+      "https://github.com/hunyoung529/cryptoCheck_typescript"
+    ],
+    "plan": "React-query를 써보기위해 암호화폐 API를 이용해서 코인의 가격과 과거 가격 그리고 정보들을 볼 수 있는 웹페이지를 만들었습니다.",
+    "desc": "코인프리카의 API에 있는 암호화폐들의 정보들을 React-query를 사용해서 불러온 뒤 가격 정보와 코인의 디테일을 볼 수 있게 했습니다. 그리고 ApexCharts를 이용해서 최근 가격 변화를 차트로 표현해 가격의 더 직관적인 움직임을 보여줬습니다.<br><br> React-query를 배우고 써봄으로써 React로 서버에서 데이터를 받을 때 편리하게 쓰고 캐싱 기능이 얼마나 유용한지 배울 수 있었습니다."
+  }
+]
