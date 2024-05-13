@@ -177,4 +177,265 @@ export default {
     }
   }
 }
+@media (min-width: 820px) and (max-width: 1245px) {
+  .leftProfile {
+    width: 100%;
+    height: 20vh;
+    top: 1%;
+    left: 0%;
+    padding: 0 2%;
+    .wrapLeft20 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      figure {
+        margin-right: 35px;
+        margin-bottom: 0;
+      }
+      .hiText {
+        .hello {
+          font-size: 28px;
+          font-weight: 600;
+        }
+        .email {
+          display: none;
+        }
+      }
+    }
+  }
+  .rightMain {
+    width: 100%;
+    height: 80vh;
+    top: 7.5%;
+    right: 0%;
+    .wrapRight80 {
+      width: 100%;
+      flex-direction: column;
+      .navTab {
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+        .toggleBtn {
+          .toggleLabel {
+            transform: rotate(-90deg) translate(65px, 350px);
+          }
+        }
+        .selectTab {
+          flex-direction: row;
+          height: unset;
+          margin-right: 10px;
+          .tabs {
+            height: 75px;
+            border-radius: 25px 25px 0px 0px;
+          }
+        }
+      }
+      .mainContent {
+        width: 100%;
+        height: 75vh;
+      }
+    }
+  }
+} //end 1240
+@media (min-width: 590px) and (max-width: 819px) {
+  .leftProfile {
+    width: 100%;
+    height: 20vh;
+    top: 1%;
+    left: 0%;
+    padding: 0 2%;
+    .wrapLeft20 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      figure {
+        margin-right: 35px;
+        margin-bottom: 0;
+        img {
+          width: 140px;
+          height: 140px;
+        }
+      }
+      .hiText {
+        .hello {
+          font-size: 28px;
+          font-weight: 600;
+        }
+        .email {
+          display: none;
+        }
+      }
+    }
+  }
+  .rightMain {
+    width: 100%;
+    height: 80vh;
+    top: 7.5%;
+    right: 0%;
+    .wrapRight80 {
+      width: 100%;
+      flex-direction: column;
+      .navTab {
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+        .toggleBtn {
+          .toggleLabel {
+            transform: rotate(-90deg) translate(-35px, -50px);
+          }
+        }
+        .selectTab {
+          flex-direction: row;
+          height: unset;
+          margin-right: 10px;
+          .tabs {
+            height: 75px;
+            border-radius: 25px 25px 0px 0px;
+          }
+        }
+      }
+      .mainContent {
+        width: 100%;
+        height: 75vh;
+      }
+    }
+  }
+}
+@media (min-width: 425px) and (max-width: 589px) {
+  .leftProfile {
+    width: 100%;
+    height: 20vh;
+    top: 1%;
+    left: 0%;
+    padding: 0 2%;
+    .wrapLeft20 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      figure {
+        margin-right: 35px;
+        margin-bottom: 0;
+        img {
+          width: 140px;
+          height: 140px;
+        }
+      }
+      .hiText {
+        .hello {
+          font-size: 28px;
+          font-weight: 600;
+        }
+        .email {
+          display: none;
+        }
+      }
+    }
+  }
+  .rightMain {
+    width: 100%;
+    height: 80vh;
+    top: 7.5%;
+    right: 0%;
+    .wrapRight80 {
+      width: 100%;
+      flex-direction: column;
+      .navTab {
+        margin-top: 90px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        .selectTab {
+          flex-direction: row;
+          height: unset;
+          margin-right: 10px;
+          .tabs {
+            height: 75px;
+            border-radius: 25px 25px 0px 0px;
+          }
+        }
+      }
+      .mainContent {
+        width: 100%;
+        height: 95vh;
+      }
+    }
+  }
+}
+@media (max-width: 424px) {
+  .leftProfile {
+    width: 100%;
+    height: 20vh;
+    top: 1%;
+    left: 0%;
+    padding: 0 2%;
+    .wrapLeft20 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      figure {
+        margin-right: 35px;
+        margin-bottom: 0;
+        img {
+          width: 140px;
+          height: 140px;
+        }
+      }
+      .hiText {
+        .hello {
+          font-size: 20px;
+          font-weight: 600;
+        }
+        .email {
+          display: none;
+        }
+      }
+    }
+  }
+  .rightMain {
+    width: 100%;
+    height: 80vh;
+    top: 7.5%;
+    right: 0%;
+    .wrapRight80 {
+      width: 100%;
+      flex-direction: column;
+      .navTab {
+        margin-top: 90px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+        .toggleBtn {
+          position: absolute;
+          top: 18.5%;
+          right: 12%;
+          z-index: 5;
+          .toggleLabel {
+            transform: rotate(-90deg);
+          }
+        }
+        .selectTab {
+          flex-direction: row;
+          height: unset;
+          margin-right: 10px;
+          .tabs {
+            height: 55px;
+            border-radius: 25px 25px 0px 0px;
+          }
+          .colorTab {
+            width: 140px;
+            height: 75px;
+          }
+        }
+      }
+      .mainContent {
+        width: 100%;
+        height: 150vh;
+        .toggleBtn {
+          display: none;
+        }
+      }
+    }
+  }
+}
 </style>

@@ -194,9 +194,6 @@ export default {
         color: #fff;
         padding: 7px 18px;
         margin-right: 5px;
-        &:hover {
-          background-color: darken(#8f94ff, 10%);
-        }
       }
       .active-dark {
         background-color: white;
@@ -401,6 +398,17 @@ export default {
   background-color: #a7aaff;
   opacity: 1;
 }
+@media (min-width: 1026px) {
+  .title {
+    .filterButtons {
+      .filterLang {
+        &:hover {
+          background-color: darken(#8f94ff, 20%);
+        }
+      }
+    }
+  }
+}
 
 @media (min-width: 590px) and (max-width: 819px) {
   .project {
@@ -442,6 +450,11 @@ export default {
       }
       .decoLine {
         width: 150px;
+      }
+      .filterButtons {
+        .filterLang {
+          padding: 5px 10px;
+        }
       }
     }
     .projectWrap {

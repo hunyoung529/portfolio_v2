@@ -253,9 +253,9 @@ export default {};
 @media (min-width: 820px) and (max-width: 1245px) {
   .about {
     .aboutMe {
-      margin-top: 50px;
+      margin-top: 30px;
       .introduce {
-        margin-top: 50px;
+        margin-top: 30px;
       }
     }
     .myPages {
@@ -284,16 +284,16 @@ export default {};
       }
     }
     .myPages {
-      margin-top: 50px;
+      margin-top: 20px;
     }
   }
 }
 @media (min-width: 425px) and (max-width: 589px) {
   .about {
     .aboutMe {
-      margin-top: 40px;
+      margin-top: 30px;
       .introduce {
-        margin-top: 50px;
+        margin-top: 30px;
       }
       .myProfile {
         flex-direction: column;
@@ -307,7 +307,7 @@ export default {};
       }
     }
     .myPages {
-      margin-top: 50px;
+      margin-top: 20px;
       .page:nth-of-type(2) {
         margin-left: 10px;
       }
