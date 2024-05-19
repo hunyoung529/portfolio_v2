@@ -69,6 +69,11 @@ export default {
           name: "mariaDB",
           src: require("@/assets/img/mariadb.png"),
         },
+        {
+          id: 14,
+          name: "recoil",
+          src: require("@/assets/img/recoilLogo.png"),
+        },
       ],
     };
   },
