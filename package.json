@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
     "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
     "sass": "^1.77.0",
     "sass-loader": "^14.2.1",
     "swiper": "^11.1.1",
