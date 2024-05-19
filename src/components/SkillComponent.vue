@@ -118,8 +118,8 @@ export default {
       align-items: center;
 
       .eachSkillBg {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         border-radius: 25px;
         border: 2px solid #c1a7ee;
         background: #fdfeff;
@@ -129,7 +129,7 @@ export default {
         align-items: center;
         margin: 1% 0.5%;
         img {
-          width: 100px;
+          width: 80px;
         }
       }
     }
