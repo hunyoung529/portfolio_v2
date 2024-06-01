@@ -33,9 +33,9 @@
   },
   {
     "id": 2,
-    "name": "FCGG",
+    "name": "ADARI",
     "date": "[ 2023.09.13~2023.09.27 ]",
-    "lang": ["Next.js", "Typescript", "Tailwind", "recoil", "FC온라인 API"],
+    "lang": ["Next.js", "Typescript", "Tailwind", "FC온라인 API"],
     "imgs": [
       "fcgg_1.png",
       "fcgg_2.png",
@@ -46,7 +46,7 @@
     "link": ["https://fcgg.vercel.app/", "https://github.com/hunyoung529/fcgg"],
     "plan": "축구게임인 FC온라인의 API를 사용해서 만든 전적,통계 검색 웹페이지입니다.<br> 인기 게임인 반면에 리그 오브 레전드의 opgg와 같은 전적 검색 사이트가 없어서 만들게 됐습니다.",
 
-    "desc": "클론 코딩을 포함해서 세 번째 프로젝트다보니 수월하게 만들 수 있었습니다. 유저의 닉네임을 활용해서 여러 경기 정보들을 출력하고 이를 보기 쉽게 최대한 단순한 모습으로 구현했습니다.<br><br>  상태관리를 용이성과 props drilling을 최소화를 위해 recoil을 썼습니다. 초기 React로 제작을 했다가 초기 페이지 로딩 시간을 단축하기 위해 Nextjs로 리뉴얼 작업을 진행했습니다.<br><br>"
+    "desc": "클론 코딩을 포함해서 세 번째 프로젝트다보니 수월하게 만들 수 있었습니다. 유저의 닉네임을 활용해서 여러 경기 정보들을 출력하고 이를 보기 쉽게 최대한 단순한 모습으로 구현했습니다.<br><br>  초기 react와 recoil을 사용해서 만들었으나 초기 데이터 fetching 시 로딩 속도를 높히기 위해 Next.js로 전환 후 ssr로 페이지를 구성했고 볼륨이 크지 않았기 때문에 props를 전달하는 방식을 채택했습니다.<br><br>"
   },
   {
     "id": 3,
