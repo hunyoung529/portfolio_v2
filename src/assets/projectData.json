@@ -127,5 +127,18 @@
     ],
     "plan": "React-query를 써보기위해 암호화폐 API를 이용해서 코인의 가격과 과거 가격 그리고 정보들을 볼 수 있는 웹페이지를 만들었습니다.",
     "desc": "코인프리카의 API에 있는 암호화폐들의 정보들을 React-query를 사용해서 불러온 뒤 가격 정보와 코인의 디테일을 볼 수 있게 했습니다. 그리고 ApexCharts를 이용해서 최근 가격 변화를 차트로 표현해 가격의 더 직관적인 움직임을 보여줬습니다.<br><br> React-query를 배우고 써봄으로써 React로 서버에서 데이터를 받을 때 편리하게 쓰고 캐싱 기능이 얼마나 유용한지 배울 수 있었습니다."
+  },
+  {
+    "id": 7,
+    "name": "Mimeet (제작중)",
+    "date": "[ 2024.05.15~ ]",
+    "lang": ["Next.js", "Tailwind", "Redux", "Java", "Spring"],
+    "imgs": ["mimeet_1.png", "mimeet_2.png"],
+    "link": [
+      "https://github.com/byepingu/mimeet",
+      "https://github.com/byepingu/mimeet"
+    ],
+    "plan": "full calendar를 이용해서 미니멀한 일정 & 약속 관리 어플을 만드는 중입니다. ",
+    "desc": "현재 백엔드와 소통하며 개발중이며 6월 중순 마무리를 목표로 하고 있습니다."
   }
 ]
