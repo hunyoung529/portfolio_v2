@@ -35,7 +35,14 @@
     "id": 2,
     "name": "ADARI",
     "date": "[ 2023.09.13~2023.09.27 ]",
-    "lang": ["Next.js", "Typescript", "Tailwind", "FC온라인 API"],
+    "lang": [
+      "Next.js",
+      "Typescript",
+      "Tailwind",
+      "FC온라인 API",
+      "Nextui",
+      "Apexcharts"
+    ],
     "imgs": [
       "fcgg_1.png",
       "fcgg_2.png",
@@ -43,10 +50,10 @@
       "fcgg_4.png",
       "fcgg_5.png"
     ],
-    "link": ["https://fcgg.vercel.app/", "https://github.com/hunyoung529/fcgg"],
+    "link": ["https://adari.kr/", "https://github.com/hunyoung529/fcgg"],
     "plan": "축구게임인 FC온라인의 API를 사용해서 만든 전적,통계 검색 웹페이지입니다.<br> 인기 게임인 반면에 리그 오브 레전드의 opgg와 같은 전적 검색 사이트가 없어서 만들게 됐습니다.",
 
-    "desc": "클론 코딩을 포함해서 세 번째 프로젝트다보니 수월하게 만들 수 있었습니다. 유저의 닉네임을 활용해서 여러 경기 정보들을 출력하고 이를 보기 쉽게 최대한 단순한 모습으로 구현했습니다.<br><br>  초기 react와 recoil을 사용해서 만들었으나 초기 데이터 fetching 시 로딩 속도를 높히기 위해 Next.js로 전환 후 ssr로 페이지를 구성했고 볼륨이 크지 않았기 때문에 props를 전달하는 방식을 채택했습니다.<br><br>"
+    "desc": "클론 코딩을 포함한 세 번째 프로젝트였기 때문에 비교적 수월하게 진행할 수 있었습니다. 유저의 닉네임을 활용해 여러 경기 정보를 출력하고, 이를 직관적으로 보기 쉽게 최대한 단순하게 구현했습니다.<br><br> 초기에는 React와 Recoil을 사용해 작업을 시작했지만, 데이터 fetching 시 로딩 속도를 개선하기 위해 Next.js로 전환하여 SSR을 적용했습니다. 이후 CSR에서 데이터를 Recoil에 저장한 후 글로벌 상태 관리를 통해 활용했습니다. 현재도 지속적으로 업데이트 중이며, 추후 React Native로도 이식할 예정입니다.<br><br>"
   },
   {
     "id": 3,
@@ -139,6 +146,6 @@
       "https://github.com/byepingu/mimeet"
     ],
     "plan": "full calendar를 이용해서 미니멀한 일정 & 약속 관리 어플을 만드는 중입니다. ",
-    "desc": "현재 백엔드와 소통하며 개발중이며 6월 중순 마무리를 목표로 하고 있습니다."
+    "desc": "현재 백엔드와 소통하며 개발중이며 6월 중순 마무리가 목표였으나 백엔드 개발자의 취업 이슈로 9월 말 마무리 예정입니다."
   }
 ]
