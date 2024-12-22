@@ -137,7 +137,7 @@
   },
   {
     "id": 7,
-    "name": "Mimeet (제작중)",
+    "name": "Mimeet (잠정중단)",
     "date": "[ 2024.05.15~ ]",
     "lang": ["Next.js", "Tailwind", "Redux", "Java", "Spring"],
     "imgs": ["mimeet_1.png", "mimeet_2.png"],
@@ -146,6 +146,19 @@
       "https://github.com/byepingu/mimeet"
     ],
     "plan": "full calendar를 이용해서 미니멀한 일정 & 약속 관리 어플을 만드는 중입니다. ",
-    "desc": "현재 백엔드와 소통하며 개발중이며 6월 중순 마무리가 목표였으나 백엔드 개발자의 취업 이슈로 9월 말 마무리 예정입니다."
+    "desc": "현재 백엔드와 소통하며 개발중이였으나 백엔드 개발자의 취업 이슈로 잠정 중단된 프로젝트입니다."
+  },
+  {
+    "id": 8,
+    "name": "뭐먹 (제작중)",
+    "date": "[ 2024.12.17~ ]",
+    "lang": ["React Native", "node.js"],
+    "imgs": ["whatoeat_01.jpg"],
+    "link": [
+      "https://github.com/hunyoung529/whatoeat",
+      "https://github.com/hunyoung529/whatoeat"
+    ],
+    "plan": "식자재 api를 활용해서 제철 식자재를 알려주고 요리 레시피를 알려주는 어플을 개발 중입니다. ",
+    "desc": "현재 프론트엔드 개발자 한명과 함께 작업중이며 올해가 가기전에 완성하는게 목표입니다."
   }
 ]

@@ -54,6 +54,16 @@
         >
           JavaScript
         </button>
+        <button
+          @click="setFilter('React Native')"
+          class="filterLang"
+          :class="{
+            'active-dark': isFilterActive('React Native') && darkmode,
+            'active-light': isFilterActive('React Native') && !darkmode,
+          }"
+        >
+          React Native
+        </button>
       </div>
     </article>
     <article class="projectWrap">
@@ -185,8 +195,9 @@ export default {
       justify-content: space-between;
       align-items: center;
       margin-top: 10px;
-      width: 200px;
+      width: 100%;
       .filterLang {
+        flex: 1;
         width: 100%;
         border-radius: 50px;
         background: #8f94ff;
